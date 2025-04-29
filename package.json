@@ -1,0 +1,61 @@
+{
+  "name": "quick-demo",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve -o",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "lint": "ng lint",
+    "infragistics-login": "echo \"IMPORTANT: When prompted for username enter in this format `name!!domain.com`\" && npm adduser --registry=https://packages.infragistics.com/npm/js-licensed/ --scope=@infragistics --always-auth"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~19.1.8",
+    "@angular/common": "~19.1.8",
+    "@angular/compiler": "~19.1.8",
+    "@angular/core": "~19.1.8",
+    "@angular/forms": "~19.1.8",
+    "@angular/platform-browser": "~19.1.8",
+    "@angular/platform-browser-dynamic": "~19.1.8",
+    "@angular/router": "~19.1.8",
+    "@infragistics/igniteui-angular": "~19.1.0",
+    "hammerjs": "~2.0.8",
+    "minireset.css": "~0.0.7",
+    "rxjs": "~7.8.1",
+    "tslib": "~2.6.2",
+    "zone.js": "~0.15.0"
+  },
+  "overrides": {
+    "reveal-sdk-wrappers-angular": {
+      "@angular/core": "^19.1.8",
+      "@angular/common": "^19.1.8"
+    }
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~19.1.8",
+    "@angular-eslint/builder": "~19.1.0",
+    "@angular-eslint/eslint-plugin": "~19.1.0",
+    "@angular-eslint/eslint-plugin-template": "~19.1.0",
+    "@angular-eslint/schematics": "~19.1.0",
+    "@angular-eslint/template-parser": "~19.1.0",
+    "@angular/cli": "~19.1.8",
+    "@angular/compiler-cli": "~19.1.8",
+    "@types/jasmine": "~5.1.4",
+    "@typescript-eslint/eslint-plugin": "~8.25.0",
+    "@typescript-eslint/parser": "~8.25.0",
+    "eslint": "~9.21.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-unicorn": "^53.0.0",
+    "@igniteui/angular-schematics": "~19.1.14318",
+    "jasmine-core": "~5.1.1",
+    "karma": "~6.4.2",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.1",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.6.2"
+  }
+}

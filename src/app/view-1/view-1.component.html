@@ -1,0 +1,14 @@
+<div class="column-layout group">
+  <igx-grid [data]="northwindSwaggerCustomerDto" primaryKey="customerId" [allowFiltering]="true" filterMode="excelStyleFilter" class="grid">
+    <igx-column field="customerId" dataType="string" header="customerId" [filterable]="true" [sortable]="true" [selectable]="false"></igx-column>
+    <igx-column field="companyName" dataType="string" header="companyName" [filterable]="true" [sortable]="true" [selectable]="false"></igx-column>
+    <igx-column field="contactName" dataType="string" header="contactName" [filterable]="true" [sortable]="true" [selectable]="false"></igx-column>
+    <igx-column field="contactTitle" dataType="string" header="contactTitle" [filterable]="true" [sortable]="true" [selectable]="false"></igx-column>
+    <igx-column field="address.street" dataType="string" header="address street" [filterable]="true" [sortable]="true" [selectable]="false"></igx-column>
+    <igx-column field="address.city" dataType="string" header="address city" [filterable]="true" [sortable]="true" [selectable]="false"></igx-column>
+    <igx-column field="address.region" dataType="string" header="address region" [filterable]="true" [sortable]="true" [selectable]="false"></igx-column>
+    <igx-column field="address.postalCode" dataType="string" header="address postalCode" [filterable]="true" [sortable]="true" [selectable]="false"></igx-column>
+    <igx-column field="address.country" dataType="string" header="address country" [filterable]="true" [sortable]="true" [selectable]="false"></igx-column>
+    <igx-column field="address.phone" dataType="string" header="address phone" [filterable]="true" [sortable]="true" [selectable]="false"></igx-column>
+  </igx-grid>
+</div>
