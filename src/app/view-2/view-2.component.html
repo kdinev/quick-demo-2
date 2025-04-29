@@ -1,0 +1,18 @@
+<div class="column-layout group">
+  <igx-list class="list">
+    @for (item of finDataStock; track item) {
+      <igx-list-item (click)="selectedStock = item">
+        <span igxListLineTitle>{{ item.company_name }}</span>
+        <span igxListLineSubTitle>{{ item.stock_symbol }}</span>
+        <span igxListAction>
+          <igx-icon class="icon">
+            arrow_forward_ios
+          </igx-icon>
+        </span>
+      </igx-list-item>
+    }
+  </igx-list>
+</div>
+<div class="column-layout group_1">
+  <igx-financial-chart [dataSource]="finDataStockData | transformData" class="financial-chart"></igx-financial-chart>
+</div>
